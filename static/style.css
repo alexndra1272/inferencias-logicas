@@ -1,0 +1,280 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    overflow-x: hidden;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+ /**************************************NAV BAR**********************/
+.header {
+    background-color: #5D82BB;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+h3{
+    padding: 20px;
+}
+.nav-layout {
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+.general {
+    color: white;
+    text-decoration: none;
+}
+.general .log{
+    line-height: 80px;
+    text-decoration: none;
+}
+.nav-item{
+    font-size: 19px;
+    margin: 0 10px;
+    line-height: 80px;
+    width: max-content;
+}
+.item-link{
+    border-radius: 12px;
+    padding: 8px;
+    text-decoration: none;
+}
+.lista
+{
+    z-index: 1;
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    text-decoration: none;
+}
+.container_theory { 
+    width: 100vw;
+}
+
+.item-link:hover{
+    background: #fff;
+    transition: 1s;
+    text-decoration: none;
+}
+.nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+}
+.suma img{
+    width: 100%;
+}
+.Infe ul p{
+    text-align: center;
+}
+.Infe ul .imgs img{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    
+}
+/********************HOME****************/
+section
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #ff00f2, #160574);
+    color: #ffffff;
+}
+section img
+{
+    position: relative;
+    max-width: 400px;
+    z-index: 1000;
+}
+section .container button
+{
+
+    height: 80px;
+    width: 150px;
+    border: none;
+    background: none;
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px Solid #FFFFFF;
+    border-radius: 50px;
+    margin-left: 20px;
+    align-items: center;
+}
+.wave
+{
+    position: absolute;
+    bottom: 0;
+    top: 400px;
+    left: 0;
+}
+.container2 {
+    z-index: -1;
+    margin-top: 150px;
+    margin-left: 5%;
+    width: 90%;
+    height: 480px;
+    background-color: rgba(93, 131, 187, 0.774);
+    border-radius: 5%;
+}
+.slider
+{
+
+    padding-top: 45px;
+}
+.slider img
+{
+    z-index: -1;
+    margin-left: 20%;
+    width: 60%;
+}
+.Infe{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Infe h2{
+    width: 100%;
+}
+.imgs
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.suma li h2
+{
+    text-align: center;
+}
+.container_theory h2{
+    text-align: center;
+}
+.container_theory p{
+    text-align: justify;
+}
+.container {
+    width: 100vw;
+}
+.ejemploinfe
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ejemploinfe ul li img{
+    width: 90%;
+}
+
+@media (max-width: 790px) {
+    body {
+        padding-top: 70px;
+    }
+    .loguito{
+        display: none;
+    }
+    .wave {
+
+        top: 100%;
+        width: 100%;
+        height: 25%;
+    }
+    .header {
+        height: 70px;
+        padding-bottom: 10px;
+    }
+    .log {
+        line-height: 80px;
+    }
+    .nav-item{
+        line-height: 70px;
+
+    }
+    .item-link{
+        border-radius: 12px;
+        padding: 8px;
+    }
+    .ejemploinfe ul li h2{
+        font-size: 25px;
+    }
+    .lista
+    {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: rgb(37, 78, 139);
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100% -60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
+        z-index: 2;
+        position: absolute;
+    }
+    .item-link:hover{
+        background: none;
+        color: #5C9AFB;
+    }
+    .nav-toggle {
+        display: block;
+    }
+    .visible-m {
+        left: 0;
+    }
+    section
+    {
+        padding: 10px;
+    }
+    .slider h3
+    {
+        font-size: 13px;
+    }
+    .slider p
+    {
+        font-size: 10px;
+    }
+    .slider img
+    {
+        margin-top: 3%;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .container2 {
+        height: 250px;
+        position: relative;
+    }
+    .container_theory h2{
+        font-size: 20px;
+    }
+    .container_theory p{
+        font-size: 15px;
+    }
+}

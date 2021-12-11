@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teoria de Conjuntos</title>
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../static/style.css">
+    <script defer src="../static/script.js"></script>
+</head>
+<header class="header">
+    <nav class="nav-layout">
+        <a href="index.html" class="log general">
+            <h3>
+                <span class="loguito">Matematicas Discretas</span>
+                <img src="../static/images/UNI_Logo.svg" width="50" align="center">
+            </h3>
+        </a>
+        <button class="nav-toggle" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i>
+        </button>
+        <!--img class ="log-uni" src="../static/Images/Logo_UNI.png"-->
+        <ul class="lista">
+            <li class="nav-item">
+                <a href="presentacion.html" class="item-link general">Presentación</a>
+            </li>
+            <li class="nav-item">
+                <a href="inferencias.html" class="item-link general">Inferecias Lógicas</a>
+            </li>
+            <li class="nav-item">
+                <a href="sumatoria.html" class="item-link general">Sumatoria</a>
+            </li>
+            <li class="nav-item">
+                <a href="inferencias_logicas.html" class="item-link general">Ejemplos</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="container_theory">
+        <section>
+            <div class="container">
+                <h2>Inferencias Lógicas</h2><br>
+                <p>Es el proceso de razonamiento que genera una conclusión a partir de una o varias premisas.
+                    Las reglas de inferencias que rigen el uso de los términos de enlace son muy simples, se pueden aprender como un juego.
+                    El juego se juega con proposiciones o fórmulas lógicas, nombre que se le da a la proposiciones simbolizadas. Se empieza
+                    con conjuntos de fórmulas que se denominan premisas. El objeto del juego es utilizar las reglas de inferencia 
+                    de manera que conduzcan a otras formulas que se denominan conclusiones. El paso lógico
+                    de las premisas a la conclusión es una deducción.
+                </p>
+            </div>
+        </section>
+        <div class="Infe">
+            <ul>
+                <div class="imgs">
+                    <li>
+                        <h2>Modus Ponendo Ponens</h2>
+                    </li>
+                    <p>
+                        Se tienen 2 premisas, una condicional y una premisa cualquiera, si la premisa cualquiera es igual al antecedente de la condicional, entonces resulta o se infiere el consecuente.    
+                    </p>
+                    <img src="../static/images/Modus_ponendo_ponens.jpeg" alt="Modus ponendo ponens">
+                </div>
+                <div class="imgs">
+                    <li>
+                        <h2>Modus tollendo tollens</h2>
+                    </li>
+                    <p>
+                        Se tienen 2 premisas, una condicional y una premisa cualquiera, si la premisa cualquiera es la negación del consecuente de la condicional, entonces resulta o se infiere el antecedente negado.
+                    </p>
+                    
+                    <img src="../static/images/Tollendo tollens.jpeg" alt="Modus tollendo tollens">
+                </div>
+                <div class="imgs">
+                    <li>
+                        <h2>Modus tollendo ponens </h2>
+                    </li>
+                    <p>
+                        Dadas dos premisas, una de ellas tiene que ser una disyunción y la otra, una premisa cualquiera, si la premisa cualquiera es la negación de uno de los componentes de la disyunción, resulta o se infiere el otro componente, tal y como está. 
+                    </p>
+                    
+                    <img src="../static/images/Tollendo ponens.jpeg" alt="tollendo ponens">
+                </div>
+                <div class="imgs">
+                    <li>
+                        <h2>Ley doble negación</h2> 
+                    </li>
+                    <p>
+                        Dada una primicia que está doblemente negada esta saldrá positiva
+                    </p>               
+                    <img src="../static/images/Doble negación.jpeg" alt="Doble negación">
+                </div>
+                <div class="imgs">
+                    <li>
+                        <h2>Ley de adjunción a o ley de conjunción</h2>
+                    </li>
+                    <p>
+                        Se tienen 2 premisas cualquiera, estas pueden unirse, pero solo con una conjunción
+                    </p>                
+                    <img src="../static/images/Adjuncion y conjunción.jpeg" alt="Adjuncion">
+                </div>
+                <div class="imgs">
+                    <li>
+                        <h2>Ley de simplificación </h2>
+                    </li>
+                    <p>
+                        Si existe una premisa que sea una conjunción, se puede simplificar, es decir sacar un componente, o los 2 pero en diferentes pasos.
+                    </p>                
+                    <img src="../static/images/Simplificación.jpeg" alt="simplificación">
+                </div>
+                <div class="imgs">
+                    <li>
+                        <h2>Ley del silogismo hipotético </h2>
+                    </li>
+                    <p>
+                        Para aplicar esta regla se necesitan 2 premisas que sean condicionales, el antecedente de una premisa, debe ser igual al consecuente de la otra, cuando eso sucede, por silogismo hipotético se infiere, el antecedente de una y el consecuente de la otra. 
+                    </p>                
+                    <img src="../static/images/Silogismo hipotético.jpeg" alt="Silogismo hipotético">
+                </div>
+                <div class="imgs">
+                    <li>
+                        <h2>Dilema Constructivo</h2>
+                    </li>
+                    <p>
+                        Se tienen 3 Premisas: 2 Condicionales y 1 Disyunción, los componentes de la disyunción, son los antecedentes de las condicionales, resulta o se infiere, una disyunción, formada por los consecuentes de las condicionales.
+                    </p>                
+                    <img src="../static/images/Constructivo.jpeg" alt="Constructivo">
+                </div>
+                <div class="imgs">
+                    <li>
+                        <h2>Ley de la adición </h2>
+                    </li>
+                    <p>
+                        Si tengo una premisa cualquiera p, puedo adicionarle lo que necesite, pero por medio de una Disyunción.
+                    </p>                
+                    <img src="../static/images/Adición.jpeg" alt="Adición">
+                </div>
+                <div class="imgs">
+                    <li>
+                        <h2>Simplificación disyuntiva </h2>
+                    </li>
+                    <p>
+                        Se obtienen 2 premisas condicionales con el mismo consecuente y la tercera premisa que es una disyunción y cuyas partes son los antecedentes de la premisa anterior se infiere en los consecuentes de ambas implicaciones.
+                    </p>                
+                    <img src="../static/images/Simplificación disyuntiva.jpeg" alt="Simplificación disyuntiva">
+                </div>
+                <div class="imgs">
+                    <li>
+                        <h2>Ley de la bicondicional </h2>
+                    </li>
+                    <p>
+                        Si tengo una premisa bicondicional, puedo expresarla como condicional, utilizando sus términos en cualquier sentido.
+                    </p>
+                    <img src="../static/images/Bi condicional.jpeg" alt="bicondicional">
+                </div>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
